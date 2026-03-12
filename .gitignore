@@ -1,0 +1,11 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+logs/*.log
+logs/*.json
+data/raw/Scaled_Market_Data.jsonl
+# Optional: potentially ignore all large data if user only wants code
+# data/raw/
+# data/processed/

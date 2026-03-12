@@ -1,0 +1,8 @@
+playwright
+pandas
+numpy
+rapidfuzz
+scipy
+plotly
+streamlit
+tabulate
