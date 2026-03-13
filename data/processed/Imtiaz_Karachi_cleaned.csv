@@ -1,0 +1,87 @@
+product_id,name,brand,category,subcategory,price,quantity,unit,unit_price,availability,store,city,product_url,image_url,scrape_timestamp,processed_timestamp
+,Ponam Super Kernel Basmati Rice 1Kg,Ponam,Rice,,335.0,1.0,kg,335.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:32.706954,2026-03-13T11:28:12.813701
+,Ponam Basmati Rice Kifayat 1Kg,Ponam,Rice,,215.0,1.0,kg,215.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:33.187918,2026-03-13T11:28:12.813701
+,Ponam Super Kernel Basmati Rice 1Kg,Ponam,Rice,,335.0,1.0,kg,335.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:40:32.181437,2026-03-13T11:28:12.813701
+,Ponam Basmati Rice Kifayat 1Kg,Ponam,Rice,,215.0,1.0,kg,215.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:40:32.402499,2026-03-13T11:28:12.813701
+,Ponam Black Eyed Beans (White Lobia) 500g,Ponam,Pulses-Grains,,169.0,0.5,kg,338.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:43.721807,2026-03-13T11:28:12.813701
+,Ponam Masoor Whole 1000g,Ponam,Pulses-Grains,,210.0,1.0,kg,210.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:44.133368,2026-03-13T11:28:12.813701
+,Ponam Masoor Whole 500g,Ponam,Pulses-Grains,,105.0,0.5,kg,210.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:44.495343,2026-03-13T11:28:12.813701
+,Ponam Red Kidney Beans (Lobia) 500g,Ponam,Pulses-Grains,,239.0,0.5,kg,478.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:44.755257,2026-03-13T11:28:12.813701
+,Ponam Dal Moong 1000g,Ponam,Pulses-Grains,,365.0,1.0,kg,365.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:45.109696,2026-03-13T11:28:12.813701
+,Ponam Moong Whole 500g,Ponam,Pulses-Grains,,175.0,0.5,kg,350.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:45.323539,2026-03-13T11:28:12.813701
+,Ponam Dal Mix 500g,Ponam,Pulses-Grains,,189.0,0.5,kg,378.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:45.627760,2026-03-13T11:28:12.813701
+,Ponam Dal Mash Chilka Black 500g,Ponam,Pulses-Grains,,215.0,0.5,kg,430.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:46.069836,2026-03-13T11:28:12.813701
+,Ponam Dal Mash Whole 500g,Ponam,Pulses-Grains,,215.0,0.5,kg,430.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:46.227047,2026-03-13T11:28:12.813701
+,Ponam Black Eyed Beans (White Lobia) 500g,Ponam,Pulses-Grains,,169.0,0.5,kg,338.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:40:47.601830,2026-03-13T11:28:12.813701
+,Ponam Masoor Whole 1000g,Ponam,Pulses-Grains,,210.0,1.0,kg,210.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:40:47.793659,2026-03-13T11:28:12.813701
+,Ponam Masoor Whole 500g,Ponam,Pulses-Grains,,105.0,0.5,kg,210.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:40:47.959783,2026-03-13T11:28:12.813701
+,Ponam Red Kidney Beans (Lobia) 500g,Ponam,Pulses-Grains,,239.0,0.5,kg,478.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:40:48.155593,2026-03-13T11:28:12.813701
+,Ponam Dal Moong 1000g,Ponam,Pulses-Grains,,365.0,1.0,kg,365.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:40:48.538721,2026-03-13T11:28:12.813701
+,Ponam Moong Whole 500g,Ponam,Pulses-Grains,,175.0,0.5,kg,350.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:40:48.822895,2026-03-13T11:28:12.813701
+,Ponam Dal Mix 500g,Ponam,Pulses-Grains,,189.0,0.5,kg,378.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:40:49.040950,2026-03-13T11:28:12.813701
+,Ponam Dal Mash Chilka Black 500g,Ponam,Pulses-Grains,,215.0,0.5,kg,430.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:40:49.754034,2026-03-13T11:28:12.813701
+,Ponam Dal Mash Whole 500g,Ponam,Pulses-Grains,,215.0,0.5,kg,430.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:40:50.086435,2026-03-13T11:28:12.813701
+,Ponam Baisan 500g,Ponam,Flour,,125.0,0.5,kg,250.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:56.227596,2026-03-13T11:28:12.813701
+,Ponam Maida 500g,Ponam,Flour,,85.0,0.5,kg,170.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:56.647494,2026-03-13T11:28:12.813701
+,Ponam Maida 1kg,Ponam,Flour,,159.0,1.0,kg,159.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:56.965085,2026-03-13T11:28:12.813701
+,Ponam Makai Flour 500g,Ponam,Flour,,109.0,0.5,kg,218.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:57.275986,2026-03-13T11:28:12.813701
+,Ponam Cornflour 500g,Ponam,Flour,,119.0,0.5,kg,238.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:57.517692,2026-03-13T11:28:12.813701
+,Ponam Cornflour 1kg,Ponam,Flour,,229.0,1.0,kg,229.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:35:57.898515,2026-03-13T11:28:12.813701
+,Ponam Baisan 500g,Ponam,Flour,,125.0,0.5,kg,250.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:06.293679,2026-03-13T11:28:12.813701
+,Ponam Maida 500g,Ponam,Flour,,85.0,0.5,kg,170.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:06.678028,2026-03-13T11:28:12.813701
+,Ponam Maida 1kg,Ponam,Flour,,159.0,1.0,kg,159.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:07.021098,2026-03-13T11:28:12.813701
+,Ponam Makai Flour 500g,Ponam,Flour,,109.0,0.5,kg,218.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:07.300433,2026-03-13T11:28:12.813701
+,Ponam Cornflour 500g,Ponam,Flour,,119.0,0.5,kg,238.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:07.641735,2026-03-13T11:28:12.813701
+,Ponam Cornflour 1kg,Ponam,Flour,,229.0,1.0,kg,229.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:07.954456,2026-03-13T11:28:12.813701
+,Borges Olive Oil 100% Pure 125Ml,Borges,Oil-Ghee,,845.0,0.125,L,6760.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:09.831324,2026-03-13T11:28:12.813701
+,Borges Olive Oil Pure Tin 100Ml,Borges,Oil-Ghee,,682.0,0.1,L,6820.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:10.295312,2026-03-13T11:28:12.813701
+,Borges Olive Oil Extra Virgin 125ml,Borges,Oil-Ghee,,917.0,0.125,L,7336.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:10.671689,2026-03-13T11:28:12.813701
+,Mueloliva Olive Oil Extra Light 1Ltr,Mueloliva,Oil-Ghee,,4545.0,1.0,L,4545.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:11.042686,2026-03-13T11:28:12.813701
+,Borges Olive Oil Extra Virgin 500ml,Borges,Oil-Ghee,,2925.0,0.5,L,5850.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:11.485978,2026-03-13T11:28:12.813701
+,Borges Olive Oil Extra Virgin 250ml,Borges,Oil-Ghee,,1657.0,0.25,L,6628.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:11.678237,2026-03-13T11:28:12.813701
+,Mueloliva Olive Oil Extra Virgin 1Ltr,Mueloliva,Oil-Ghee,,4885.0,1.0,L,4885.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:12.028335,2026-03-13T11:28:12.813701
+,Muelolive Olive Oil Extra Light 1Ltr,Muelolive,Oil-Ghee,,4465.0,1.0,L,4465.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:12.219048,2026-03-13T11:28:12.813701
+,Borges Olive Oil 100% Pure 125Ml,Borges,Oil-Ghee,,845.0,0.125,L,6760.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:24.753594,2026-03-13T11:28:12.813701
+,Borges Olive Oil Pure Tin 100Ml,Borges,Oil-Ghee,,682.0,0.1,L,6820.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:25.164016,2026-03-13T11:28:12.813701
+,Borges Olive Oil Extra Virgin 125ml,Borges,Oil-Ghee,,917.0,0.125,L,7336.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:25.545398,2026-03-13T11:28:12.813701
+,Mueloliva Olive Oil Extra Light 1Ltr,Mueloliva,Oil-Ghee,,4545.0,1.0,L,4545.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:25.921288,2026-03-13T11:28:12.813701
+,Borges Olive Oil Extra Virgin 500ml,Borges,Oil-Ghee,,2925.0,0.5,L,5850.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:26.297945,2026-03-13T11:28:12.813701
+,Borges Olive Oil Extra Virgin 250ml,Borges,Oil-Ghee,,1657.0,0.25,L,6628.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:26.635318,2026-03-13T11:28:12.813701
+,Mueloliva Olive Oil Extra Virgin 1Ltr,Mueloliva,Oil-Ghee,,4885.0,1.0,L,4885.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:26.955636,2026-03-13T11:28:12.813701
+,Muelolive Olive Oil Extra Light 1Ltr,Muelolive,Oil-Ghee,,4465.0,1.0,L,4465.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:27.284049,2026-03-13T11:28:12.813701
+,Ponam Chilli Crushed 200g,Ponam,Spices-Herbs,,169.0,0.2,kg,845.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:23.738973,2026-03-13T11:28:12.813701
+,Ponam Garam Masala Powder 100g,Ponam,Spices-Herbs,,295.0,0.1,kg,2950.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:24.197447,2026-03-13T11:28:12.813701
+,Ponam Black Peper Powder 100g,Ponam,Spices-Herbs,,299.0,0.1,kg,2990.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:24.581446,2026-03-13T11:28:12.813701
+,Ponam Haldi Powder 200g,Ponam,Spices-Herbs,,128.0,0.2,kg,640.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:24.820743,2026-03-13T11:28:12.813701
+,Ponam Dhania Powder 100g,Ponam,Spices-Herbs,,54.0,0.1,kg,540.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:25.028967,2026-03-13T11:28:12.813701
+,Ponam Chilli Crushed 100g,Ponam,Spices-Herbs,,89.0,0.1,kg,890.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:25.295403,2026-03-13T11:28:12.813701
+,Ponam Lal Mirch Powder 200g,Ponam,Spices-Herbs,,117.0,0.2,kg,585.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:25.660128,2026-03-13T11:28:12.813701
+,Ponam Lal Mirch Powder 100g,Ponam,Spices-Herbs,,59.0,0.1,kg,590.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:26.022671,2026-03-13T11:28:12.813701
+,Ponam Haldi Powder 100g,Ponam,Spices-Herbs,,64.0,0.1,kg,640.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:26.173134,2026-03-13T11:28:12.813701
+,Ponam Chilli Crushed 500g,Ponam,Spices-Herbs,,399.0,0.5,kg,798.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:26.318904,2026-03-13T11:28:12.813701
+,Ponam Haldi Powder 400g,Ponam,Spices-Herbs,,379.0,0.4,kg,947.5,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:26.456119,2026-03-13T11:28:12.813701
+,Ponam White Pepper Powder 50g,Ponam,Spices-Herbs,,189.0,0.05,kg,3780.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:26.609170,2026-03-13T11:28:12.813701
+,Ponam Black Peper Powder 50g,Ponam,Spices-Herbs,,155.0,0.05,kg,3100.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:26.948353,2026-03-13T11:28:12.813701
+,Zeera White Powder 100g,Zeera,Spices-Herbs,,169.0,0.1,kg,1690.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:27.271526,2026-03-13T11:28:12.813701
+,Ponam Lal Mirch Powder 400g,Ponam,Spices-Herbs,,234.0,0.4,kg,585.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:27.610496,2026-03-13T11:28:12.813701
+,Dhania Powder 200g,Dhania,Spices-Herbs,,110.0,0.2,kg,550.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:27.887132,2026-03-13T11:28:12.813701
+,Zeera White Powder 50g,Zeera,Spices-Herbs,,99.0,0.05,kg,1980.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:28.208785,2026-03-13T11:28:12.813701
+,Ponam Mustard Seeds (Rai Dana) Powder 100G,Ponam,Spices-Herbs,,89.0,0.1,kg,890.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:36:28.521374,2026-03-13T11:28:12.813701
+,Ponam Chilli Crushed 200g,Ponam,Spices-Herbs,,169.0,0.2,kg,845.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:44.120784,2026-03-13T11:28:12.813701
+,Ponam Garam Masala Powder 100g,Ponam,Spices-Herbs,,295.0,0.1,kg,2950.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:44.362544,2026-03-13T11:28:12.813701
+,Ponam Black Peper Powder 100g,Ponam,Spices-Herbs,,299.0,0.1,kg,2990.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:44.550359,2026-03-13T11:28:12.813701
+,Ponam Haldi Powder 200g,Ponam,Spices-Herbs,,128.0,0.2,kg,640.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:44.739477,2026-03-13T11:28:12.813701
+,Ponam Dhania Powder 100g,Ponam,Spices-Herbs,,54.0,0.1,kg,540.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:44.973480,2026-03-13T11:28:12.813701
+,Ponam Chilli Crushed 100g,Ponam,Spices-Herbs,,89.0,0.1,kg,890.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:45.185757,2026-03-13T11:28:12.813701
+,Ponam Lal Mirch Powder 200g,Ponam,Spices-Herbs,,117.0,0.2,kg,585.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:45.494885,2026-03-13T11:28:12.813701
+,Ponam Lal Mirch Powder 100g,Ponam,Spices-Herbs,,59.0,0.1,kg,590.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:45.635533,2026-03-13T11:28:12.813701
+,Ponam Haldi Powder 100g,Ponam,Spices-Herbs,,64.0,0.1,kg,640.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:45.791478,2026-03-13T11:28:12.813701
+,Ponam Chilli Crushed 500g,Ponam,Spices-Herbs,,399.0,0.5,kg,798.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:45.996129,2026-03-13T11:28:12.813701
+,Ponam Haldi Powder 400g,Ponam,Spices-Herbs,,379.0,0.4,kg,947.5,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:46.299669,2026-03-13T11:28:12.813701
+,Ponam White Pepper Powder 50g,Ponam,Spices-Herbs,,189.0,0.05,kg,3780.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:46.634702,2026-03-13T11:28:12.813701
+,Ponam Black Peper Powder 50g,Ponam,Spices-Herbs,,155.0,0.05,kg,3100.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:46.983613,2026-03-13T11:28:12.813701
+,Zeera White Powder 100g,Zeera,Spices-Herbs,,169.0,0.1,kg,1690.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:47.212753,2026-03-13T11:28:12.813701
+,Ponam Lal Mirch Powder 400g,Ponam,Spices-Herbs,,234.0,0.4,kg,585.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:47.504895,2026-03-13T11:28:12.813701
+,Dhania Powder 200g,Dhania,Spices-Herbs,,110.0,0.2,kg,550.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:47.853737,2026-03-13T11:28:12.813701
+,Zeera White Powder 50g,Zeera,Spices-Herbs,,99.0,0.05,kg,1980.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:48.203584,2026-03-13T11:28:12.813701
+,Ponam Mustard Seeds (Rai Dana) Powder 100G,Ponam,Spices-Herbs,,89.0,0.1,kg,890.0,In Stock,Imtiaz,Karachi,,,2026-03-11T18:41:48.513153,2026-03-13T11:28:12.813701

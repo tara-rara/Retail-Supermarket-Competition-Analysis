@@ -103,10 +103,44 @@ class BaseScraper(abc.ABC):
         self.logger.info("Finished scrolling.")
 
     def save_to_raw(self, items, category):
-        """Saves to Raw layer as required."""
-        if not os.path.exists(self.raw_dir): os.makedirs(self.raw_dir)
-        filename = f"{self.raw_dir}/{self.store_name}_{self.city}.jsonl"
-        with open(filename, 'a', encoding='utf-8') as f:
+        """Saves to Raw layer in CSV format as required."""
+        if not items:
+            return
+            
+        if not os.path.exists(self.raw_dir): 
+            os.makedirs(self.raw_dir)
+            
+        filename = f"{self.raw_dir}/{self.store_name}_{self.city}.csv"
+        
+        import csv
+        file_exists = os.path.isfile(filename)
+        
+        # Standard fields from inspiration repo
+        fieldnames = [
+            'store', 'city', 'product_id', 'name', 'brand', 
+            'category', 'subcategory', 'price', 'availability', 
+            'product_url', 'image_url', 'timestamp'
+        ]
+        
+        with open(filename, 'a', encoding='utf-8', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            if not file_exists:
+                writer.writeheader()
+                
             for item in items:
-                item['metadata'] = {'city': self.city, 'store': self.store_name, 'cat': category}
-                f.write(json.dumps(item) + '\n')
+                # Merge metadata into the row
+                row = {
+                    'store': self.store_name,
+                    'city': self.city,
+                    'product_id': item.get('product_id', ''),
+                    'name': str(item.get('raw_title', '')).strip(),
+                    'brand': item.get('brand', 'Generic'),
+                    'category': category.split(' > ')[0] if ' > ' in category else category,
+                    'subcategory': category.split(' > ')[1] if ' > ' in category else '',
+                    'price': item.get('raw_price', ''),
+                    'availability': item.get('availability', 'In Stock'),
+                    'product_url': item.get('product_url', ''),
+                    'image_url': item.get('image_url', ''),
+                    'timestamp': item.get('scrape_timestamp', datetime.now().isoformat())
+                }
+                writer.writerow(row)

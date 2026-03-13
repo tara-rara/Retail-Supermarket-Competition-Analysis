@@ -57,13 +57,13 @@ class ProductMatcher:
         Input: Flat list of processed items.
         Output: List of unified products.
         """
-        # Step 1: Blocking by Brand, Quantity and Unit to minimize comparisons
+        # Step 1: Blocking by Category, Quantity and Unit (Brand is unreliable)
         blocks = defaultdict(list)
         for item in processed_data_list:
-            brand = item.get('brand', 'Generic').lower()
+            cat = item.get('category', 'Unknown').lower()
             qty = item.get('quantity', 1.0)
             unit = item.get('unit', 'unit').lower()
-            block_key = f"{brand}|{qty}|{unit}"
+            block_key = f"{cat}|{qty}|{unit}"
             blocks[block_key].append(item)
 
         self.logger.info(f"Formed {len(blocks)} blocks for matching.")
@@ -79,12 +79,13 @@ class ProductMatcher:
             
             for item in items:
                 matches_existing = False
-                cleaned_title = self.clean_text(item['title'])
+                name = item.get('name', item.get('title', ''))
+                cleaned_name = self.clean_text(name)
                 
                 for cluster in clusters:
-                    # Compare item with the representative of each cluster (the first item)
                     rep = cluster[0]
-                    similarity = self.get_similarity(cleaned_title, self.clean_text(rep['title']))
+                    rep_name = rep.get('name', rep.get('title', ''))
+                    similarity = self.get_similarity(cleaned_name, self.clean_text(rep_name))
                     
                     if similarity >= threshold:
                         cluster.append(item)
@@ -96,8 +97,8 @@ class ProductMatcher:
             
             # Create a unified product for each cluster
             for cluster in clusters:
-                # Use the shortest title as the canonical one
-                canonical_item = min(cluster, key=lambda x: len(x['title']))
+                # Use the shortest name as the canonical one
+                canonical_item = min(cluster, key=lambda x: len(x.get('name', x.get('title', ''))))
                 
                 unified_id = str(uuid.uuid4())
                 
@@ -105,14 +106,14 @@ class ProductMatcher:
                 store_prices = []
                 for entry in cluster:
                     store_prices.append({
-                        "store": entry['store'],
-                        "city": entry['city'],
-                        "price": entry['price'],
-                        "unit_price": entry['unit_price'],
-                        "timestamp": entry['scrape_timestamp']
+                        "store": entry.get('store', ''),
+                        "city": entry.get('city', ''),
+                        "price": entry.get('price', 0),
+                        "unit_price": entry.get('unit_price', 0),
+                        "timestamp": entry.get('scrape_timestamp', entry.get('timestamp', ''))
                     })
                 
-                # Deduplicate store entries (keep cheapest if multiple from same store/city)
+                # Deduplicate store entries
                 best_store_prices = {}
                 for sp in store_prices:
                     key = (sp['store'], sp['city'])
@@ -121,14 +122,14 @@ class ProductMatcher:
                 
                 gold_product = {
                     "product_id": unified_id,
-                    "title": canonical_item['title'],
-                    "brand": canonical_item['brand'],
-                    "quantity": canonical_item['quantity'],
-                    "unit": canonical_item['unit'],
-                    "category": canonical_item['category'],
+                    "title": canonical_item.get('name', canonical_item.get('title', '')),
+                    "brand": canonical_item.get('brand', 'Generic'),
+                    "quantity": canonical_item.get('quantity', 1.0),
+                    "unit": canonical_item.get('unit', 'unit'),
+                    "category": canonical_item.get('category', 'Unknown'),
                     "offers": list(best_store_prices.values()),
-                    "min_price": min(sp['price'] for sp in best_store_prices.values()),
-                    "max_price": max(sp['price'] for sp in best_store_prices.values()),
+                    "min_price": min(sp['price'] for sp in best_store_prices.values()) if best_store_prices else 0,
+                    "max_price": max(sp['price'] for sp in best_store_prices.values()) if best_store_prices else 0,
                     "match_count": len(best_store_prices),
                     "cluster_size": len(cluster),
                     "processed_at": datetime.now().isoformat()

@@ -16,28 +16,39 @@ class PriceAnalyzer:
             self.logger.setLevel(logging.INFO)
 
     def load_gold_layer(self, gold_path):
-        """Load the gold layer into a flat pandas DataFrame for analysis."""
+        """Load the gold layer into a flat pandas DataFrame for analysis. Supports JSON and JSONL."""
         if not os.path.exists(gold_path):
             self.logger.error(f"Gold layer file {gold_path} not found.")
             return None
         
         records = []
-        with open(gold_path, 'r', encoding='utf-8') as f:
-            for line in f:
-                product = json.loads(line)
-                for offer in product['offers']:
-                    records.append({
-                        'product_id': product['product_id'],
-                        'title': product['title'],
-                        'brand': product['brand'],
-                        'quantity': product['quantity'],
-                        'unit': product['unit'],
-                        'category': product['category'],
-                        'store': offer['store'],
-                        'city': offer['city'],
-                        'price': offer['price'],
-                        'unit_price': offer['unit_price']
-                    })
+        try:
+            with open(gold_path, 'r', encoding='utf-8') as f:
+                content = f.read().strip()
+                if content.startswith('['):
+                    # Standard JSON list
+                    data = json.loads(content)
+                else:
+                    # Fallback to JSONL
+                    data = [json.loads(line) for line in content.split('\n') if line.strip()]
+                    
+                for product in data:
+                    for offer in product.get('offers', []):
+                        records.append({
+                            'product_id': product.get('product_id', ''),
+                            'title': product.get('title', ''),
+                            'brand': product.get('brand', 'Generic'),
+                            'quantity': product.get('quantity', 1.0),
+                            'unit': product.get('unit', 'unit'),
+                            'category': product.get('category', 'Unknown'),
+                            'store': offer.get('store', ''),
+                            'city': offer.get('city', ''),
+                            'price': offer.get('price', 0),
+                            'unit_price': offer.get('unit_price', 0)
+                        })
+        except Exception as e:
+            self.logger.error(f"Error loading gold layer: {e}")
+            return None
         
         df = pd.DataFrame(records)
         self.logger.info(f"Loaded {len(df)} records for analysis.")
@@ -65,17 +76,21 @@ class PriceAnalyzer:
         return product_stats
 
     def calculate_relative_position(self, df):
-        """Phase 5.1: Relative Price Position Index: store_price / category_mean."""
-        # Calculate category means per city
-        cat_means = df.groupby(['city', 'category'])['price'].mean().reset_index()
-        cat_means.rename(columns={'price': 'category_mean'}, inplace=True)
+        """Phase 5.1: Relative Price Position Index."""
+        # Category means per city (local index)
+        local_means = df.groupby(['city', 'category'])['unit_price'].mean().reset_index()
+        local_means.rename(columns={'unit_price': 'local_cat_mean'}, inplace=True)
         
-        # Merge back to original df
-        df_merged = df.merge(cat_means, on=['city', 'category'], how='left')
+        # Global category means (across cities)
+        global_means = df.groupby(['category'])['unit_price'].mean().reset_index()
+        global_means.rename(columns={'unit_price': 'global_cat_mean'}, inplace=True)
         
-        # MANDATORY: store_price / category_mean
-        # (Lower means store is cheaper than average)
-        df_merged['relative_price_position'] = df_merged['price'] / df_merged['category_mean']
+        df_merged = df.merge(local_means, on=['city', 'category'], how='left')
+        df_merged = df_merged.merge(global_means, on=['category'], how='left')
+        
+        # normalized position: unit_price / mean
+        df_merged['relative_price_position'] = df_merged['unit_price'] / df_merged['local_cat_mean']
+        df_merged['global_relative_position'] = df_merged['unit_price'] / df_merged['global_cat_mean']
         
         return df_merged
 
@@ -179,7 +194,7 @@ class PriceAnalyzer:
             city_df = merged[merged['city'] == city]
             if not city_df.empty:
                 numeric_df = city_df.select_dtypes(include=[np.number])
-                city_corrs[city] = numeric_df.corr(method='pearson')
+                city_corrs[city] = numeric_df.corr(method='pearson').fillna(0)
                 
         return {
             'size_vs_dispersion': size_disp_corr,

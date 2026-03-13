@@ -25,11 +25,11 @@ def main():
 
     cleaner = DataCleaner()
     
-    # Process each .jsonl file in raw_dir
-    for filename in os.listdir(raw_dir):
-        if filename.endswith(".jsonl"):
+    # Process each .csv file in raw_dir
+    for filename in sorted(os.listdir(raw_dir)):
+        if filename.endswith(".csv"):
             input_path = os.path.join(raw_dir, filename)
-            output_path = os.path.join(processed_dir, filename.replace(".jsonl", "_processed.jsonl"))
+            output_path = os.path.join(processed_dir, filename.replace(".csv", "_cleaned.csv"))
             
             try:
                 cleaner.run_pipeline(input_path, output_path)

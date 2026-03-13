@@ -147,7 +147,7 @@ def main():
         st.markdown(f'<div class="metric-card"><div class="metric-label">Avg. Price Var</div><div class="metric-value">{avg_spread*100:.1f}%</div><div style="color:{TEXT_MUTED}; font-size:0.8rem;">Market volatility</div></div>', unsafe_allow_html=True)
 
     # Main Tabs
-    tab1, tab2, tab3 = st.tabs(["📊 Market Intelligence", "🏷️ Category Analytics", "🔍 Price Explorer"])
+    tab1, tab2, tab3, tab4 = st.tabs(["📊 Market Intelligence", "🏷️ Category Analytics", "🔍 Price Explorer", "🔗 Correlations"])
 
     with tab1:
         c1, c2 = st.columns([1.2, 0.8])
@@ -155,17 +155,17 @@ def main():
             st.subheader("Leader Dominance Index (LDI)")
             if store_metrics is not None and not store_metrics.empty:
                 # Rank stores by LDI (Lower is better)
-                fig_ldi = px.bar(store_metrics.sort_values('ldi'), 
+                fig_ldi = px.bar(store_metrics.sort_values('ldi', ascending=False), 
                                 x='ldi', y='store', orientation='h', color='city',
                                 template="plotly_white",
                                 color_discrete_sequence=px.colors.qualitative.Prism,
-                                title="Pricing Leadership Efficiency")
+                                title="Pricing Leadership Efficiency (Wins / Total)")
                 fig_ldi.update_layout(showlegend=True, height=450)
                 st.plotly_chart(fig_ldi, use_container_width=True)
             else:
                 st.info("No market metrics available for the selected view.")
         with c2:
-            st.subheader("Competitor Presence")
+            st.subheader("Market Share (Samples)")
             store_counts = pd.Series([o['store'] for p in data for o in p['offers']]).value_counts()
             if not store_counts.empty:
                 fig_donut = px.pie(values=store_counts.values, names=store_counts.index, hole=.6,
@@ -203,20 +203,14 @@ def main():
                 st.info("No SKU found for criteria.")
             else:
                 for p in results[:15]:
-                    with st.container():
+                    with st.expander(f"📦 {p['title']} - {p['brand']} ({len(p['offers'])} offers)", expanded=True):
                         st.markdown(f"""
-                        <div class="product-card">
-                            <div style="display:flex; justify-content:space-between; align-items:center;">
-                                <span style="font-weight:800; font-size:1.1rem; color:{PRIMARY_COLOR};">{p['title']}</span>
-                                <span style="color:{TEXT_MUTED}; font-size:0.8rem;">ID: {p['product_id'][:8]}</span>
-                            </div>
-                            <div style="margin-top:5px; font-size:0.9rem;">
-                                <b>Brand:</b> {p['brand']} | <b>Category:</b> {p['category']} | <b>Size:</b> {p['quantity']} {p['unit']}
-                            </div>
+                        <div style="margin-bottom:10px;">
+                            <span style="color:{TEXT_MUTED}; font-size:0.85rem;">Product ID: {p['product_id']}</span><br>
+                            <b>Category:</b> {p['category']} | <b>Standardized Qty:</b> {p['quantity']} {p['unit']}
                         </div>
                         """, unsafe_allow_html=True)
                         
-                        # Comparison Table & Chart
                         offers = pd.DataFrame(p['offers']).sort_values('price')
                         min_price = offers['price'].min()
                         
@@ -229,9 +223,18 @@ def main():
                         
                         with res_col2:
                             fig_res = px.line(offers, x='store', y='price', markers=True, template="plotly_white")
-                            fig_res.update_layout(height=150, margin=dict(t=10, b=10, l=10, r=10), xaxis_title=None, yaxis_title=None)
+                            fig_res.update_layout(height=200, margin=dict(t=10, b=10, l=10, r=10), xaxis_title=None, yaxis_title="Price (Rs.)")
                             st.plotly_chart(fig_res, use_container_width=True, key=f"chart_{p['product_id']}")
-                        st.markdown("<br>", unsafe_allow_html=True)
+
+    with tab4:
+        st.subheader("Market Correlation Matrix (Mandatory Task 3.4)")
+        # Load correlation matrices if available or display summary
+        summary_path = "reports/analytics_summary.md"
+        if os.path.exists(summary_path):
+            with open(summary_path, 'r', encoding='utf-8') as f:
+                st.markdown(f.read())
+        else:
+            st.warning("Correlation report not found. Run the analytics pipeline.")
 
     # Footer
     st.markdown("---")

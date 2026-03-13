@@ -18,7 +18,7 @@ def main():
     setup_logging()
     logger = logging.getLogger("AnalyticsOrchestrator")
     
-    gold_path = "data/matched/matched_products.jsonl"
+    gold_path = "data/matched/matched_products.json"
     report_dir = "reports"
     os.makedirs(report_dir, exist_ok=True)
     
@@ -55,17 +55,17 @@ def main():
         f.write("# 🛡️ CS4048: Supermarket Pricing Intelligence Report\n\n")
         
         f.write("## 1. Market Infrastructure Overview\n")
-        f.write(f"- **Total Scraped Rows (Raw):** {len(df)} (Goal: 500k+ in full run)\n")
-        f.write(f"- **Golden Entities (Matched):** {len(product_stats)} (Goal: 10,000+)\n")
+        f.write(f"- **Total Scraped Rows (Raw):** {len(df)} \n")
+        f.write(f"- **Golden Entities (Matched):** {len(product_stats)} \n")
         f.write(f"- **Unique Market Brands:** {df['brand'].nunique()}\n")
         f.write(f"- **Cross-Store Price Sync Score:** {corr_res['synchronization_score']:.4f}\n\n")
         
-        f.write("## 2. Store-Level Dominance & LDI (Mandatory Task 3.2 & 3.3)\n")
+        f.write("## 2. Store-Level Dominance & LDI \n")
         cols = ['store', 'city', 'avg_category_price_index', 'ldi', 'weighted_ldi', 'leadership_frequency', 'median_price_deviation']
         f.write(store_metrics[cols].to_markdown(index=False))
         f.write("\n\n*LDI = Wins / Total Matched. Leadership Freq = Wins / Store Total.*\n\n")
         
-        f.write("## 3. Mandatory Correlation Analysis (Task 3.4)\n")
+        f.write("## 3. Mandatory Correlation Analysis\n")
         f.write("| Correlation Task | Pearson Coefficient |\n")
         f.write("| :--- | :--- |\n")
         f.write(f"| Product Size vs Price Dispersion (CV) | {corr_res['size_vs_dispersion']:.4f} |\n")

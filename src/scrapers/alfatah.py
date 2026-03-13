@@ -29,12 +29,29 @@ class AlfatahScraper(BaseScraper):
                 title = title_elem.inner_text().strip()
                 price = price_elem.inner_text().strip()
                 
-                if not title and not price:
+                if not title:
                     continue
-                    
+                
+                # Image URL
+                img_elem = card.query_selector('img')
+                image_url = img_elem.get_attribute('src') if img_elem else ""
+                if image_url and image_url.startswith('//'):
+                    image_url = f"https:{image_url}"
+                
+                # Product URL
+                link_elem = card.query_selector('a')
+                product_url = link_elem.get_attribute('href') if link_elem else ""
+                if product_url and not product_url.startswith('http'):
+                    product_url = f"https://alfatah.pk{product_url}"
+
                 products.append({
+                    "product_id": "",
                     "raw_title": title,
                     "raw_price": price,
+                    "brand": "Generic",
+                    "availability": "In Stock",
+                    "product_url": product_url,
+                    "image_url": image_url,
                     "scrape_timestamp": datetime.now().isoformat()
                 })
             except Exception:

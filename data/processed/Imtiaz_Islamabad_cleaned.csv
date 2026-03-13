@@ -1,0 +1,45 @@
+product_id,name,brand,category,subcategory,price,quantity,unit,unit_price,availability,store,city,product_url,image_url,scrape_timestamp,processed_timestamp
+,Cool & Cool Cotton Buds C1775 100's,Cool,Health & Beauty,Personal Hygiene,159.0,1.0,unit,159.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:20.588982,2026-03-13T12:03:30.907941
+,Fay Cotton Buds 100's Jar,Fay,Health & Beauty,Personal Hygiene,154.0,1.0,unit,154.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:20.687397,2026-03-13T12:03:30.907941
+,Sfs Cotton 500G,Sfs,Health & Beauty,Personal Hygiene,836.0,0.5,kg,1672.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:20.875718,2026-03-13T12:03:30.909063
+,Sfs Cotton 100G,Sfs,Health & Beauty,Personal Hygiene,188.0,0.1,kg,1880.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:21.113097,2026-03-13T12:03:30.909063
+,Sfs Cotton 400G,Sfs,Health & Beauty,Personal Hygiene,679.0,0.4,kg,1697.5,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:21.245694,2026-03-13T12:03:30.909063
+,Tip Top's Cotton Buds P 100's Pch,Tip,Health & Beauty,Personal Hygiene,109.0,1.0,unit,109.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:21.328343,2026-03-13T12:03:30.909063
+,Tip Top's Cotton Buds P 200's Box,Tip,Health & Beauty,Personal Hygiene,275.0,1.0,unit,275.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:21.513887,2026-03-13T12:03:30.909063
+,Tip Top's Cotton Buds W 200's Box,Tip,Health & Beauty,Personal Hygiene,315.0,1.0,unit,315.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:21.716328,2026-03-13T12:03:30.909063
+,Tip Top's Cotton Buds W 100's Pch,Tip,Health & Beauty,Personal Hygiene,145.0,1.0,unit,145.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:21.890973,2026-03-13T12:03:30.909063
+,Touchme Shaving Cream Standard,Touchme,Health & Beauty,Men's Grooming,145.0,1.0,unit,145.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:32.269272,2026-03-13T12:03:30.909063
+,Veet Body Wax Strips Normal Skin 12's Local,Veet,Health & Beauty,Feminine Care,625.0,1.0,unit,625.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:44.111272,2026-03-13T12:03:30.909614
+,Veet Body Wax Strips DRy Skin 12's Local,Veet,Health & Beauty,Feminine Care,625.0,1.0,unit,625.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:44.235192,2026-03-13T12:03:30.909614
+,Lubna'S Hair Wax Wonder L,Lubna'S,Health & Beauty,Feminine Care,115.0,1.0,unit,115.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:44.358756,2026-03-13T12:03:30.909614
+,Black Cat Perfume Talc 70g,Black,Health & Beauty,Fragrances,195.0,0.07,kg,2785.71,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:42:56.246400,2026-03-13T12:03:30.909614
+,Tyfon Bleach 1Ltr,Tyfon,Home Care,Laundry,325.0,1.0,L,325.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:11.185371,2026-03-13T12:03:30.909614
+,Super Bleach 500ml,Super,Home Care,Laundry,149.0,0.5,L,298.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:11.295549,2026-03-13T12:03:30.909614
+,Tyfon Bleach 500ml,Tyfon,Home Care,Laundry,205.0,0.5,L,410.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:11.502741,2026-03-13T12:03:30.909614
+,Super Bleach 1Ltr,Super,Home Care,Laundry,239.0,1.0,L,239.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:11.663847,2026-03-13T12:03:30.909614
+,Aci Color Bleach 500Ml,Aci,Home Care,Laundry,535.0,0.5,L,1070.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:11.806379,2026-03-13T12:03:30.909614
+,Robin Bleach 1Ltr,Robin,Home Care,Laundry,1095.0,1.0,L,1095.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:11.947135,2026-03-13T12:03:30.909614
+,Aci Noclo Non Chlorine Bleach 500ml,Aci,Home Care,Laundry,435.0,0.5,L,870.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:12.095349,2026-03-13T12:03:30.909614
+,Robin Bleach 450ml,Robin,Home Care,Laundry,559.0,0.45,L,1242.22,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:12.242661,2026-03-13T12:03:30.909614
+,Super Clean Naphthalene Balls Large,Super,Home Care,Cleaning,456.0,1.0,unit,456.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:22.384766,2026-03-13T12:03:30.909614
+,Roomi Naphthalene Balls Colored,Roomi,Home Care,Cleaning,215.0,1.0,unit,215.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:22.509844,2026-03-13T12:03:30.909614
+,Rose Petal Toilet Roll Single,Rose,Home Care,Tissue,113.0,1.0,unit,113.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:45.939959,2026-03-13T12:03:30.909614
+,Rose Petal Maxob Toilet Roll Family Pack 8's+2’s Free,Rose,Home Care,Tissue,909.0,1.0,unit,909.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:46.066485,2026-03-13T12:03:30.909614
+,Hankies Toilet Roll Twin Pack,Hankies,Home Care,Tissue,209.0,1.0,unit,209.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:46.443126,2026-03-13T12:03:30.909614
+,Fay Toilet Roll Twin Pack,Fay,Home Care,Tissue,199.0,1.0,unit,199.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:46.552154,2026-03-13T12:03:30.909614
+,Hankies Toilet Roll Small,Hankies,Home Care,Tissue,100.0,1.0,unit,100.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:46.671155,2026-03-13T12:03:30.909614
+,Fay Toilet Roll,Fay,Home Care,Tissue,109.0,1.0,unit,109.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:46.777630,2026-03-13T12:03:30.909614
+,Hankies Toilet Roll Single,Hankies,Home Care,Tissue,115.0,1.0,unit,115.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:46.916469,2026-03-13T12:03:30.909614
+,Fay Toilet Roll Economy Pack 10'S,Fay,Home Care,Tissue,912.0,1.0,unit,912.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:43:47.165741,2026-03-13T12:03:30.909614
+,Roomi Air Freshner Block Refill L,Roomi,Home Care,Air Fresheners & Home Fragrances,215.0,1.0,unit,215.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:44:00.141614,2026-03-13T12:03:30.909614
+,Fresh Touch Air Freshner Refill Lavender 80g,Fresh,Home Care,Air Fresheners & Home Fragrances,165.0,0.08,kg,2062.5,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:44:00.255280,2026-03-13T12:03:30.909614
+,Fresh Touch Air Freshner Refill Lemon 80g,Fresh,Home Care,Air Fresheners & Home Fragrances,165.0,0.08,kg,2062.5,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:44:00.367949,2026-03-13T12:03:30.909614
+,Fresh Touch Air Freshner Refill Rose 80g,Fresh,Home Care,Air Fresheners & Home Fragrances,165.0,0.08,kg,2062.5,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:44:00.474333,2026-03-13T12:03:30.909614
+,Fresh Touch Air Freshner Refill Jasmine 80g,Fresh,Home Care,Air Fresheners & Home Fragrances,165.0,0.08,kg,2062.5,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:44:00.581994,2026-03-13T12:03:30.909614
+,Marhaba Ispaghol Husk Box 50g,Marhaba,Pharmacy,Husk,305.0,0.05,kg,6100.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:44:41.513108,2026-03-13T12:03:30.909614
+,Ponam Ispaghol Husk 100g,Ponam,Pharmacy,Husk,399.0,0.1,kg,3990.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:44:41.619276,2026-03-13T12:03:30.909614
+,Marhaba Ispaghol Husk Jar 95g,Marhaba,Pharmacy,Husk,629.0,0.095,kg,6621.05,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:44:41.757717,2026-03-13T12:03:30.909614
+,Dr Koff Lozenges Honey & Lemon 6'S,Dr,Pharmacy,Lozenges,282.13,1.0,unit,282.13,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:45:02.337318,2026-03-13T12:03:30.909614
+,Dr Koff Lozenges Tulsi 6'S,Dr,Pharmacy,Lozenges,282.13,1.0,unit,282.13,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:45:02.426233,2026-03-13T12:03:30.909614
+,K Y Lubricant Jelly 50g,K,Pharmacy,Sexual Wellness,1049.0,0.05,kg,20980.0,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:45:12.702667,2026-03-13T12:03:30.909614
+,Eros Cream 15g,Eros,Pharmacy,Sexual Wellness,1150.0,0.015,kg,76666.67,In Stock,Imtiaz,Islamabad,,,2026-03-13T07:45:12.801545,2026-03-13T12:03:30.909614

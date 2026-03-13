@@ -52,18 +52,27 @@ class MetroScraper(BaseScraper):
                     if match:
                         price = match.group(0)
 
+                # Image URL
+                img_elem = container.query_selector('img')
+                image_url = img_elem.get_attribute('src') if img_elem else ""
+                
+                # Product URL
+                link_elem = container.query_selector('a')
+                product_url = link_elem.get_attribute('href') if link_elem else ""
+                if product_url and not product_url.startswith('http'):
+                    product_url = f"https://www.metro-online.pk{product_url}"
+
                 if not name or "Rs" not in price:
-                    # Log first few failures to see what's happening
-                    if i < 5:
-                        self.logger.debug(f"Container {i} invalid. Name: '{name}', Price: '{price}'")
-                    continue
-                    
-                if any(p["raw_title"] == name for p in products):
                     continue
                     
                 products.append({
+                    "product_id": "",
                     "raw_title": name,
                     "raw_price": price,
+                    "brand": "Generic",
+                    "availability": "In Stock",
+                    "product_url": product_url,
+                    "image_url": image_url,
                     "scrape_timestamp": datetime.now().isoformat()
                 })
             except Exception:

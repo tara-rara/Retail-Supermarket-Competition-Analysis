@@ -1,0 +1,152 @@
+product_id,name,brand,category,subcategory,price,quantity,unit,unit_price,availability,store,city,product_url,image_url,scrape_timestamp,processed_timestamp
+,"Tomatoes Per 250GM
+
+Rs. 50 Rs.60",Tomatoes,Grocery,,60.0,0.25,kg,240.0,In Stock,Metro,Karachi,,,2026-03-11T16:45:45.060524,2026-03-13T11:28:12.833149
+,"Bananas per Dozen
+
+Rs. 399 Rs.449",Bananas,Grocery,,449.0,12.0,pcs,37.42,In Stock,Metro,Karachi,,,2026-03-11T16:45:45.643522,2026-03-13T11:28:12.833149
+,"OK Daal Chana 1KG
+
+Rs. 235 Rs.315",OK,Grocery,,315.0,1.0,kg,315.0,In Stock,Metro,Karachi,,,2026-03-11T16:45:46.088530,2026-03-13T11:28:12.833149
+,"Green Capsicum Per 250GM
+
+Rs. 50 Rs.58",Green,Grocery,,58.0,0.25,kg,232.0,In Stock,Metro,Karachi,,,2026-03-11T16:45:46.745435,2026-03-13T11:28:12.833149
+,"Beef Mince per 250gm
+
+Rs. 413 Rs.438",Beef,Grocery,,438.0,0.25,kg,1752.0,In Stock,Metro,Karachi,,,2026-03-11T16:45:46.921298,2026-03-13T11:28:12.833149
+,"Ginger Per 250GM
+
+Rs. 150 Rs.175",Ginger,Grocery,,175.0,0.25,kg,700.0,In Stock,Metro,Karachi,,,2026-03-11T16:45:47.086525,2026-03-13T11:28:12.833149
+,"China Garlic Per 250GM
+
+Rs. 150 Rs.175",China,Grocery,,175.0,0.25,kg,700.0,In Stock,Metro,Karachi,,,2026-03-11T16:45:47.245095,2026-03-13T11:28:12.833149
+,"Sabroso Chicken Nuggets Saver 1KG
+
+Rs. 745 Rs.915",Sabroso,Grocery,,915.0,1.0,kg,915.0,In Stock,Metro,Karachi,,,2026-03-11T16:45:47.543440,2026-03-13T11:28:12.833149
+,"Green Cabbage Per 500GM
+
+Rs. 25 Rs.30",Green,Grocery,,30.0,0.5,kg,60.0,In Stock,Metro,Karachi,,,2026-03-11T16:45:47.632813,2026-03-13T11:28:12.833149
+,"Metro Chef Bread Plain
+
+Rs. 249 Rs.269",Metro,Grocery,,269.0,1.0,unit,269.0,In Stock,Metro,Karachi,,,2026-03-11T16:45:48.068971,2026-03-13T11:28:12.833149
+,"Knorr Tomato Ketchup 800GM
+
+Rs. 389 Rs.450",Knorr,Grocery,,450.0,0.8,kg,562.5,In Stock,Metro,Karachi,,,2026-03-11T16:45:49.054207,2026-03-13T11:28:12.833149
+,"Chicken Breast Boneless Per 250gm
+
+Rs. 300 Rs.325",Chicken,Grocery,,325.0,0.25,kg,1300.0,In Stock,Metro,Karachi,,,2026-03-11T16:45:49.210285,2026-03-13T11:28:12.833149
+,"KalaKulu Apple Per 250GM
+
+Rs. 138 Rs.150",KalaKulu,Grocery,,150.0,0.25,kg,600.0,In Stock,Metro,Karachi,,,2026-03-11T16:45:49.370366,2026-03-13T11:28:12.833149
+,"Tomatoes Per 250GM
+
+Rs. 50 Rs.60",Tomatoes,Grocery,,50.0,0.25,kg,200.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:46.940261,2026-03-13T11:28:12.833149
+,Tomatoes Per 250GM,Tomatoes,Grocery,,50.0,0.25,kg,200.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:46.987282,2026-03-13T11:28:12.833149
+,"Potato A Quality per 250GM
+
+Rs. 11",Potato,Grocery,,11.0,0.25,kg,44.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:47.071969,2026-03-13T11:28:12.833149
+,Potato A Quality per 250GM,Potato,Grocery,,11.0,0.25,kg,44.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:47.193379,2026-03-13T11:28:12.833149
+,"Cucumber Per 250GM
+
+Rs. 19",Cucumber,Grocery,,19.0,0.25,kg,76.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:47.304743,2026-03-13T11:28:12.833149
+,Cucumber Per 250GM,Cucumber,Grocery,,19.0,0.25,kg,76.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:47.397909,2026-03-13T11:28:12.833149
+,"Bananas per Dozen
+
+Rs. 399 Rs.449",Bananas,Grocery,,399.0,12.0,pcs,33.25,In Stock,Metro,Karachi,,,2026-03-11T19:20:47.480969,2026-03-13T11:28:12.833149
+,Bananas per Dozen,Bananas,Grocery,,399.0,12.0,pcs,33.25,In Stock,Metro,Karachi,,,2026-03-11T19:20:47.533571,2026-03-13T11:28:12.833149
+,"Fine Life White Sugar 1KG
+
+Rs. 180",Fine,Grocery,,180.0,1.0,kg,180.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:47.619757,2026-03-13T11:28:12.833149
+,Fine Life White Sugar 1KG,Fine,Grocery,,180.0,1.0,kg,180.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:47.937359,2026-03-13T11:28:12.833149
+,"OK Daal Chana 1KG
+
+Rs. 235 Rs.315",OK,Grocery,,235.0,1.0,kg,235.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:48.317622,2026-03-13T11:28:12.833149
+,OK Daal Chana 1KG,OK,Grocery,,235.0,1.0,kg,235.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:48.395174,2026-03-13T11:28:12.833149
+,"White Sugar per 500GM
+
+Rs. 80",White,Grocery,,80.0,0.5,kg,160.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:48.505386,2026-03-13T11:28:12.833149
+,White Sugar per 500GM,White,Grocery,,80.0,0.5,kg,160.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:48.631614,2026-03-13T11:28:12.833149
+,"Max Dishwash Bar Long 530 GM
+
+Rs. 159",Max,Grocery,,159.0,0.53,kg,300.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:48.715767,2026-03-13T11:28:12.833149
+,Max Dishwash Bar Long 530 GM,Max,Grocery,,159.0,0.53,kg,300.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:48.827385,2026-03-13T11:28:12.833149
+,"Onions per 250GM
+
+Rs. 22",Onions,Grocery,,22.0,0.25,kg,88.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:48.905847,2026-03-13T11:28:12.833149
+,Onions per 250GM,Onions,Grocery,,22.0,0.25,kg,88.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:49.003436,2026-03-13T11:28:12.833149
+,"Green Capsicum Per 250GM
+
+Rs. 50 Rs.58",Green,Grocery,,50.0,0.25,kg,200.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:49.085975,2026-03-13T11:28:12.833149
+,Green Capsicum Per 250GM,Green,Grocery,,50.0,0.25,kg,200.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:49.141723,2026-03-13T11:28:12.833149
+,"Beef Mince per 250gm
+
+Rs. 413 Rs.438",Beef,Grocery,,413.0,0.25,kg,1652.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:49.234620,2026-03-13T11:28:12.833149
+,Beef Mince per 250gm,Beef,Grocery,,413.0,0.25,kg,1652.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:49.290095,2026-03-13T11:28:12.833149
+,"Ginger Per 250GM
+
+Rs. 150 Rs.175",Ginger,Grocery,,150.0,0.25,kg,600.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:49.386206,2026-03-13T11:28:12.833149
+,Ginger Per 250GM,Ginger,Grocery,,150.0,0.25,kg,600.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:49.448160,2026-03-13T11:28:12.833149
+,"China Garlic Per 250GM
+
+Rs. 150 Rs.175",China,Grocery,,150.0,0.25,kg,600.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:49.579286,2026-03-13T11:28:12.833149
+,China Garlic Per 250GM,China,Grocery,,150.0,0.25,kg,600.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:49.635832,2026-03-13T11:28:12.833149
+,"Spinach Per 250GM
+
+Rs. 6",Spinach,Grocery,,6.0,0.25,kg,24.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:49.737733,2026-03-13T11:28:12.833149
+,Spinach Per 250GM,Spinach,Grocery,,6.0,0.25,kg,24.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:49.855863,2026-03-13T11:28:12.833149
+,"Sabroso Chicken Nuggets Saver 1KG
+
+Rs. 745 Rs.915",Sabroso,Grocery,,745.0,1.0,kg,745.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:49.951128,2026-03-13T11:28:12.833149
+,Sabroso Chicken Nuggets Saver 1KG,Sabroso,Grocery,,745.0,1.0,kg,745.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:50.005776,2026-03-13T11:28:12.833149
+,"Green Cabbage Per 500GM
+
+Rs. 25 Rs.30",Green,Grocery,,25.0,0.5,kg,50.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:50.085461,2026-03-13T11:28:12.833149
+,Green Cabbage Per 500GM,Green,Grocery,,25.0,0.5,kg,50.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:50.138961,2026-03-13T11:28:12.833149
+,"Peaches Per 250GM
+
+Rs. 78",Peaches,Grocery,,78.0,0.25,kg,312.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:50.423754,2026-03-13T11:28:12.833149
+,Peaches Per 250GM,Peaches,Grocery,,78.0,0.25,kg,312.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:50.523511,2026-03-13T11:28:12.833149
+,"Green Chilli Desi Darjja Awal Per 250G
+
+Rs. 40",Green,Grocery,,40.0,0.25,kg,160.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:50.605334,2026-03-13T11:28:12.833149
+,Green Chilli Desi Darjja Awal Per 250G,Green,Grocery,,40.0,0.25,kg,160.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:50.718858,2026-03-13T11:28:12.833149
+,"Metro Chef Bread Plain
+
+Rs. 249 Rs.269",Metro,Grocery,,249.0,1.0,unit,249.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:50.811243,2026-03-13T11:28:12.833149
+,Metro Chef Bread Plain,Metro,Grocery,,249.0,1.0,unit,249.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:50.864586,2026-03-13T11:28:12.833149
+,"Knorr Noodles Chicken 200GM
+
+Rs. 179",Knorr,Grocery,,179.0,0.2,kg,895.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:50.983482,2026-03-13T11:28:12.833149
+,Knorr Noodles Chicken 200GM,Knorr,Grocery,,179.0,0.2,kg,895.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:51.123759,2026-03-13T11:28:12.833149
+,"Round Aubergines (Baingan) Per 250GM
+
+Rs. 20",Round,Grocery,,20.0,0.25,kg,80.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:51.398116,2026-03-13T11:28:12.833149
+,Round Aubergines (Baingan) Per 250GM,Round,Grocery,,20.0,0.25,kg,80.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:51.531761,2026-03-13T11:28:12.833149
+,"Cauliflower Per 500GM
+
+Rs. 30",Cauliflower,Grocery,,30.0,0.5,kg,60.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:51.643124,2026-03-13T11:28:12.833149
+,Cauliflower Per 500GM,Cauliflower,Grocery,,30.0,0.5,kg,60.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:51.753180,2026-03-13T11:28:12.833149
+,"Carrot Red A-Grade per 250GM
+
+Rs. 17",Carrot,Grocery,,17.0,0.25,kg,68.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:51.840646,2026-03-13T11:28:12.833149
+,Carrot Red A-Grade per 250GM,Carrot,Grocery,,17.0,0.25,kg,68.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:51.943732,2026-03-13T11:28:12.833149
+,"Simply Sufi Chicken Nuggets 1KG PP
+
+Rs. 1,039 Rs.1,200",Sufi,Grocery,,1039.0,1.0,kg,1039.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:52.015419,2026-03-13T11:28:12.833149
+,Simply Sufi Chicken Nuggets 1KG PP,Sufi,Grocery,,1039.0,1.0,kg,1039.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:52.062596,2026-03-13T11:28:12.833149
+,"Knorr Tomato Ketchup 800GM
+
+Rs. 389 Rs.450",Knorr,Grocery,,389.0,0.8,kg,486.25,In Stock,Metro,Karachi,,,2026-03-11T19:20:52.160427,2026-03-13T11:28:12.833149
+,Knorr Tomato Ketchup 800GM,Knorr,Grocery,,389.0,0.8,kg,486.25,In Stock,Metro,Karachi,,,2026-03-11T19:20:52.219087,2026-03-13T11:28:12.833149
+,"Chicken Breast Boneless Per 250gm
+
+Rs. 300 Rs.325",Chicken,Grocery,,300.0,0.25,kg,1200.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:52.307218,2026-03-13T11:28:12.833149
+,Chicken Breast Boneless Per 250gm,Chicken,Grocery,,300.0,0.25,kg,1200.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:52.359678,2026-03-13T11:28:12.833149
+,"KalaKulu Apple Per 250GM
+
+Rs. 138 Rs.150",KalaKulu,Grocery,,138.0,0.25,kg,552.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:52.443082,2026-03-13T11:28:12.833149
+,KalaKulu Apple Per 250GM,KalaKulu,Grocery,,138.0,0.25,kg,552.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:52.485400,2026-03-13T11:28:12.833149
+,"Coriander Per 250GM
+
+Rs. 50",Coriander,Grocery,,50.0,0.25,kg,200.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:52.565411,2026-03-13T11:28:12.833149
+,Coriander Per 250GM,Coriander,Grocery,,50.0,0.25,kg,200.0,In Stock,Metro,Karachi,,,2026-03-11T19:20:52.656679,2026-03-13T11:28:12.833149
